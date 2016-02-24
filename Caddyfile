@@ -1,0 +1,8 @@
+ankh.pdxhub.org
+root public
+git
+  git@github.com:edrex/eric.pdxhub.org.git
+  path ../eric.pdxhub.org
+  hook /hooks/eric.pdxhub.org CHANGEME
+  interval 86400
+  then make
